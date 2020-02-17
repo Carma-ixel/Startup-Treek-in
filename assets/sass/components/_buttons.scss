@@ -1,0 +1,25 @@
+.section-price__btn-1{
+  border-radius: 2px;
+  border-color: $ballblue;
+  background-color: $ballblue;
+  width: 21rem;
+  height: 40px;
+  margin:9px 17px;
+  color: $white;
+  font-size: $medium;
+  font-weight: $bold;
+  font-family: $opensans;
+  border:0;
+
+
+  &:hover{
+      background-color: $middleblue;
+      color: $white;
+      border:0;
+      }
+  &:active{
+    background-color: $darksalmon;
+    color:$white;
+    border:0;
+  }
+}

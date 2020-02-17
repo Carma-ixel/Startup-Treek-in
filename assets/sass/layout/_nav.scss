@@ -1,0 +1,229 @@
+nav {
+  position: fixed;
+  top: 0;
+  background-color: $white;
+  width: 100vw;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.todo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.btn-cla {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 2em;
+  padding-right: 1em;
+  margin-top: 20px;
+}
+
+i {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-right: 1em;
+}
+
+.nav-link,
+.nav__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: $small;
+  font-weight: $regular;
+  color: $raisingblack;
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 22px;
+
+  &:hover {
+    color: $ballblue;
+  }
+}
+
+.nav__butoms-i,
+.nav__butoms-r {
+  margin-bottom: 19px;
+  height: 40px;
+  font-size: $small;
+  font-weight: $bold;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 36px;
+}
+
+.nav__butoms-i {
+  background-color: $white;
+  color: $raisingblack;
+  border-color: $white;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: $ballblue;
+    color: $white;
+    border-color: $ballblue;
+  }
+
+  &:active {
+    background-color: $darksalmon;
+    color: $white;
+  }
+}
+
+.nav__butoms-r {
+  background-color: $ballblue;
+  color: $white;
+  border-color: $ballblue;
+
+  &:hover {
+    background-color: $middleblue;
+    color: $white;
+    border-color: $middleblue;
+  }
+
+  &:active {
+    background-color: $darksalmon;
+  }
+}
+@media only screen and (min-width: 1120px) {
+
+  .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .hambur {
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .btn-cla {
+    width: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-content: center;
+  }
+  .nav-link {
+    margin: 0;
+    width: auto;
+  }
+
+  .todo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .img-logo {
+    margin: 0;
+  }
+
+  .nav__butoms-i,
+  .nav__butoms-r {
+
+    border: 0;
+    width: 14%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .nav__butoms-i {
+    margin: 2em 1em;
+    width: 100%;
+  }
+
+  .nav__butoms-r {
+    margin: 2em 7em 2em 1em;
+    width: 100%;
+  }
+
+} 
+@media only screen and (min-width: 780px) and (max-width: 1120px){
+  .navbar {
+  flex-wrap: nowrap;
+}
+
+  .hambur {
+  display: none;
+}
+
+  .nav__list {    display: flex;
+    flex-wrap: nowrap;
+    width: 36%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-link {
+    margin: 0;
+    width: auto;
+  }
+
+  .todo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .btn-cla {
+    width: 46%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-content: center;
+  }
+
+  .img-logo {
+    margin: 0;
+  }
+
+  .nav__butoms-i,
+  .nav__butoms-r {
+
+    border: 0;
+    width: 14%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .nav__butoms-i {
+    margin: 2em 1em;
+    width: 100%;
+  }
+
+  .nav__butoms-r {
+    margin: 2em 7em 2em 1em;
+    width: 100%;
+  }
+}

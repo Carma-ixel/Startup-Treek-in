@@ -1,0 +1,63 @@
+header {
+  margin-top: 80px;
+}
+
+.box-img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.img-svg {
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  z-index: 0;
+  margin-top: 118px;
+}
+
+.header__title {
+  font-family: $raleway;
+  font-size: $xxxxx-large;
+  font-weight: $bold;
+  color: $raisingblack;
+  margin: 18px 31px;
+}
+
+.header__text {
+  color: $raisingblack;
+  font-size: $small;
+  font-weight: $regular;
+  margin: 0 31px;
+  line-height: 30px;
+}
+
+
+
+@media only screen and (min-width: 1016px){
+  .box {
+    position: absolute;
+    z-index: 0;
+    margin-top: 1rem;
+    margin-right: 58%;
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1016px) {
+
+
+  .box {
+    position: absolute;
+    z-index: 0;
+    margin-top: 1rem;
+    margin-right: 58%;
+    margin-left: 2em;
+  }
+
+  .img-svg{
+    margin-top: 185px;
+  }
+}

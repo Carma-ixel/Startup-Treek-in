@@ -1,0 +1,56 @@
+
+
+barose-one{
+  animation: fadeInUp 4s ease-in 0 relative 1 forwards;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+  @keyframes crecer {
+    0% { margin-bottom: 0; height: 0%; width: 0%;}
+
+    50% {height: 50%; width: 50%; opacity: 0.5; background-color: $melon; }
+
+  100% { height: 100%; width: 100%; opacity: 0;}
+}
+
+
+  @-webkit-keyframes crecer {
+    0% { margin-bottom: 0; height: 0%; width: 0%;}
+
+    50% {height: 50%; width: 50%; opacity: 0.5; background-color: $melon; }
+
+  100% { height: 100%; width: 100%; opacity: 0;}
+}
